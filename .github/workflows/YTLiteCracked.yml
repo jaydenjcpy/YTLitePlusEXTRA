@@ -346,8 +346,8 @@ jobs:
         uses: softprops/action-gh-release@v3
         with:
           tag_name: ytliteplusextra-ipa${{ github.run_number }}
-          name: YTLitePlusEXTRA_${{ env.YT_VERSION }}_v${{ inputs.ytlite_version }} (${{ github.run_number }}) 
-          files: YTLitePlusEXTRA_${{ env.YT_VERSION }}_v${{ inputs.ytlite_version }}.ipa
+          name: YTLitePlusEXTRA_${{ env.YT_VERSION }}_v5.2.1_cracked (${{ github.run_number }}) 
+          files: YTLitePlusEXTRA_${{ env.YT_VERSION }}_v5.2.1_cracked.ipa
           draft: true
 
       - name: Job Summary - Build Complete
