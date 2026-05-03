@@ -345,7 +345,7 @@ jobs:
       - name: Create a Draft Release
         uses: softprops/action-gh-release@v3
         with:
-          tag_name: ytliteplusextra-ipa${{ github.run_number }}
+          tag_name: ytliteplusextra_ytlitecracked-ipa${{ github.run_number }}
           name: YTLitePlusEXTRA_${{ env.YT_VERSION }}_v5.2.1_cracked 
           files: YTLitePlusEXTRA_${{ env.YT_VERSION }}_v5.2.1_cracked.ipa
           draft: true
